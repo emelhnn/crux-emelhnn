@@ -1,0 +1,17 @@
+# Description: Small, fast and powerful console music player for Unix-like operating systems.
+# URL: https://cmus.github.io
+# Maintainer: Shinathip Duanghoy, shinathip.x2004 at gmail dot com
+# Depends on: ncurses
+
+name=cmus
+version=2.10.0
+release=1
+source=(https://github.com/cmus/cmus/archive/v$version/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+    ./configure prefix=/usr
+    make
+
+    make DESTDIR="$PKG" install
+}
