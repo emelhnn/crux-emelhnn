@@ -1,0 +1,22 @@
+#!/bin/sh
+
+for pkg in "${PWD}"/*; do
+    if [ -d "$pkg" ]; then
+        (
+        cd "$pkg" || exit 1
+        [ -f ".signature" ] && rm ".signature"
+        [ -f ".footprint" ] && rm ".footprint"
+        # Generate footprint (requires sudo/su and last build result)
+        sudo pkgmk -d -is -if
+        pkgmk -uf
+        sudo pkgmk -c
+        # Generate signature (requires secret key)
+        pkgmk -do -is
+        pkgmk -sk ../../emelhnn.sec -us
+        pkgmk -c
+        rm -f ".md5sum"
+        )
+    fi
+done
+
+httpup-repgen
