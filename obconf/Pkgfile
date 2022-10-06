@@ -1,0 +1,20 @@
+# Description: Openbox configuration tool.
+# URL: http://openbox.org/wiki/ObConf:About
+# Maintainer: Shinathip Duanghoy, shinathip.x2004 at gmail dot com
+# Depends on: gtk libglade openbox
+
+name=obconf
+version=2.0.4
+release=1
+source=(http://openbox.org/dist/obconf/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+    install -d $PKG/usr/bin
+    
+    ./configure --prefix=/usr
+    make
+    make DESTDIR="$PKG" install
+
+    rm -rf "$PKG/usr/share/locale"
+}

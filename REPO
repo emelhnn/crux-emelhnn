@@ -1,8 +1,12 @@
 d:micro
+d:obconf
 d:gh
 f:326de8b8dc4d74570984f7c3d385993c:micro/.signature
 f:65dbd15e809a582174e890dd25d017f9:micro/.footprint
 f:ba84ced1a969cf02b386d82bdb29133a:micro/Pkgfile
+f:eb8276ee73fb0ad23fe5c78498de553d:obconf/.signature
+f:7fd9158a36d838bf62aea841a1016aff:obconf/.footprint
+f:a3c5bb8e23f17349d3a2e9745ab158fe:obconf/Pkgfile
 f:372e42feb014ce6503886f45abff4dec:gh/.signature
 f:a4627b8ca27eb87fa7311504fa41653d:gh/.footprint
 f:7753f0cd17fefcde5cb308058aa6056a:gh/Pkgfile
