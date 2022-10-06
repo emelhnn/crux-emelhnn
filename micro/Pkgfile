@@ -1,0 +1,18 @@
+# Description: A modern and intuitive terminal-based text editor.
+# URL: https://micro-editor.github.io/
+# Maintainer: Shinathip Duanghoy, shinathip.x2004 at gmail dot com
+# Depends on: go
+
+name=micro
+version=2.0.11
+release=1
+source=(https://github.com/zyedidia/micro/archive/v$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	install -d $PKG/usr/bin
+	make build
+
+	mv micro $PKG/usr/bin/micro	
+}
+

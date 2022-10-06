@@ -1,0 +1,8 @@
+#
+# /etc/ports/emelhnn.httpup: Shinathip Duanghoy's port collection
+#
+
+ROOT_DIR=/usr/ports/emelhnn
+URL=https://raw.githubusercontent.com/emelhnn/crux-emelhnn/master
+
+# End of file
