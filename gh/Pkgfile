@@ -1,0 +1,15 @@
+# Description: GitHub’s official command line tool.
+# URL: https://cli.github.com
+# Maintainer: Shinathip Duanghoy, shinathip.x2004 at gmail dot com
+# Depends on: go
+
+name=gh
+version=2.17.0
+release=1
+source=(https://github.com/cli/cli/archive/v$version/$name-$version.tar.gz)
+
+build() {
+    cd cli-$version
+    install -d $PKG/usr/bin
+    make install prefix=$PKG/usr
+}
