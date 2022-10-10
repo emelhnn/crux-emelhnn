@@ -1,0 +1,31 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib32/
+-rwxr-xr-x	root/root	usr/lib32/libGL.so.390.154
+lrwxrwxrwx	root/root	usr/lib32/libOpenCL.so -> libOpenCL.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib32/libOpenCL.so.1 -> libOpenCL.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib32/libOpenCL.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib32/libcuda.so.1 -> libcuda.so.390.154
+-rwxr-xr-x	root/root	usr/lib32/libcuda.so.390.154
+lrwxrwxrwx	root/root	usr/lib32/libnvcuvid.so -> libnvcuvid.so.390.154
+lrwxrwxrwx	root/root	usr/lib32/libnvcuvid.so.1 -> libnvcuvid.so.390.154
+-rwxr-xr-x	root/root	usr/lib32/libnvcuvid.so.390.154
+-rwxr-xr-x	root/root	usr/lib32/libnvidia-compiler.so.390.154
+lrwxrwxrwx	root/root	usr/lib32/libnvidia-encode.so.1 -> libnvidia-encode.so.390.154
+-rwxr-xr-x	root/root	usr/lib32/libnvidia-encode.so.390.154
+lrwxrwxrwx	root/root	usr/lib32/libnvidia-fbc.so.1 -> libnvidia-fbc.so.390.154
+-rwxr-xr-x	root/root	usr/lib32/libnvidia-fbc.so.390.154
+-rwxr-xr-x	root/root	usr/lib32/libnvidia-glcore.so.390.154
+lrwxrwxrwx	root/root	usr/lib32/libnvidia-ifr.so.1 -> libnvidia-ifr.so.390.154
+-rwxr-xr-x	root/root	usr/lib32/libnvidia-ifr.so.390.154
+lrwxrwxrwx	root/root	usr/lib32/libnvidia-ml.so -> libnvidia-ml.so.390.154
+lrwxrwxrwx	root/root	usr/lib32/libnvidia-ml.so.1 -> libnvidia-ml.so.390.154
+-rwxr-xr-x	root/root	usr/lib32/libnvidia-ml.so.390.154
+lrwxrwxrwx	root/root	usr/lib32/libnvidia-opencl.so.1 -> libnvidia-opencl.so.390.154
+-rwxr-xr-x	root/root	usr/lib32/libnvidia-opencl.so.390.154
+-rwxr-xr-x	root/root	usr/lib32/libnvidia-tls.so.390.154
+drwxr-xr-x	root/root	usr/lib32/tls/
+-rwxr-xr-x	root/root	usr/lib32/tls/libnvidia-tls.so.390.154
+drwxr-xr-x	root/root	usr/lib32/vdpau/
+lrwxrwxrwx	root/root	usr/lib32/vdpau/libvdpau_nvidia.so -> libvdpau_nvidia.so.390.154
+lrwxrwxrwx	root/root	usr/lib32/vdpau/libvdpau_nvidia.so.1 -> libvdpau_nvidia.so.390.154
+-rwxr-xr-x	root/root	usr/lib32/vdpau/libvdpau_nvidia.so.390.154

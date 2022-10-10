@@ -1,0 +1,46 @@
+# Description: 32-bit compatibility library for NVIDIA Linux Display Driver (version 390)
+# URL: https://www.nvidia.com
+# Maintainer: Shinathip Duanghoy, shinathip.x2004 at gmail dot com
+# Depends on: libglvnd-32
+
+name=nvidia390-32
+version=390.154
+release=1
+source=(https://us.download.nvidia.com/XFree86/Linux-x86_64/$version/NVIDIA-Linux-x86_64-$version.run)
+
+build() {
+    sh NVIDIA-Linux-x86_64-$version.run --extract-only
+    cd NVIDIA-Linux-x86_64-$version/32
+
+    # Library.
+    install -d $PKG/usr/lib32/{tls,vdpau}
+    install libGL.so.$version               $PKG/usr/lib32
+    install libOpenCL.so.1.0.0              $PKG/usr/lib32
+    install libcuda.so.$version             $PKG/usr/lib32
+    install libnvcuvid.so.$version          $PKG/usr/lib32
+    install libnvidia-compiler.so.$version  $PKG/usr/lib32
+    install libnvidia-encode.so.$version    $PKG/usr/lib32
+    install libnvidia-fbc.so.$version       $PKG/usr/lib32
+    install libnvidia-glcore.so.$version    $PKG/usr/lib32
+    install libnvidia-ifr.so.$version       $PKG/usr/lib32
+    install libnvidia-ml.so.$version        $PKG/usr/lib32
+    install libnvidia-opencl.so.$version    $PKG/usr/lib32
+    install libnvidia-tls.so.$version       $PKG/usr/lib32
+    
+    install tls/libnvidia-tls.so.$version   $PKG/usr/lib32/tls
+    install libvdpau_nvidia.so.$version     $PKG/usr/lib32/vdpau
+
+    ln -s libOpenCL.so.1.0.0                $PKG/usr/lib32/libOpenCL.so
+    ln -s libOpenCL.so.1.0.0                $PKG/usr/lib32/libOpenCL.so.1
+    ln -s libcuda.so.$version               $PKG/usr/lib32/libcuda.so.1
+    ln -s libnvcuvid.so.$version            $PKG/usr/lib32/libnvcuvid.so
+    ln -s libnvcuvid.so.$version            $PKG/usr/lib32/libnvcuvid.so.1
+    ln -s libnvidia-encode.so.$version      $PKG/usr/lib32/libnvidia-encode.so.1
+    ln -s libnvidia-fbc.so.$version         $PKG/usr/lib32/libnvidia-fbc.so.1
+    ln -s libnvidia-ifr.so.$version         $PKG/usr/lib32/libnvidia-ifr.so.1
+    ln -s libnvidia-opencl.so.$version      $PKG/usr/lib32/libnvidia-opencl.so.1
+    ln -s libnvidia-ml.so.$version          $PKG/usr/lib32/libnvidia-ml.so
+    ln -s libnvidia-ml.so.$version          $PKG/usr/lib32/libnvidia-ml.so.1
+    ln -s libvdpau_nvidia.so.$version       $PKG/usr/lib32/vdpau/libvdpau_nvidia.so
+    ln -s libvdpau_nvidia.so.$version       $PKG/usr/lib32/vdpau/libvdpau_nvidia.so.1
+}
