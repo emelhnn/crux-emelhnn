@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/emelhnn.pub
+RWSWuQECNS3U5/WgqpKVlhQguieZXbYU0Dxptz6O9Znotx1PhE+RNRx1b8FUFNt4EnTKAxYz8TNAzmCwqjSAGei/YQx7EGrkAw0=
+SHA256 (Pkgfile) = f675b5d5ae92791a15e649040cc380731b6e60d9976eac57a841040cd984e24d
+SHA256 (.footprint) = 1dfed9550ca82abca4881fb93e17570b5a793ee0cd4071a05c91ef97a0b38a32
+SHA256 (NVIDIA-Linux-x86_64-390.154-no-compat32.run) = 20a10d71b13e03924a26b822d80884d961a8e2c61564645049d727f7d5a814ec
+SHA256 (90-nvidia-uvm.rules) = c35c61cebf5bf9a112ac06539bdc670a388afa4b50a7f8223a114fbeafedb140

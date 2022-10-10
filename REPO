@@ -1,10 +1,16 @@
 d:micro
+d:nvidia390
 d:obconf
 d:gh
+d:nvidia390-32
 d:cmus
 f:326de8b8dc4d74570984f7c3d385993c:micro/.signature
 f:65dbd15e809a582174e890dd25d017f9:micro/.footprint
 f:ba84ced1a969cf02b386d82bdb29133a:micro/Pkgfile
+f:7119e0ac094a383ce3ba962b93dc380c:nvidia390/.signature
+f:d10d0966522c74e6d87b3e83998c6adc:nvidia390/.footprint
+f:4511024cc556d0c6e7c467b6789524e2:nvidia390/90-nvidia-uvm.rules
+f:2febfd54ebc282e25e77f4df6e377564:nvidia390/Pkgfile
 f:eb8276ee73fb0ad23fe5c78498de553d:obconf/.signature
 f:7fd9158a36d838bf62aea841a1016aff:obconf/.footprint
 f:a3c5bb8e23f17349d3a2e9745ab158fe:obconf/Pkgfile
