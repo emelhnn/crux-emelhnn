@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/emelhnn.pub
+RWSWuQECNS3U5x7Uilz8MXkvRSj6QIy4iJMGm6jsk58By3diEcMwfOpxh1RWoxYUaPONZzltyr+tzMQd8PELg723Z961kdi71Q0=
+SHA256 (Pkgfile) = fcd457c6678dfe571a1e60b7aa8cb647f74462ca7707d5315cb55799718a2d6f
+SHA256 (.footprint) = 825109fe62ecca5da9d26b63e8f219ecfe282878d1819161fdc31c760c19be3c
+SHA256 (ungoogled-chromium_106.0.5249.119-1.1_linux.tar.xz) = 6e2d4074547dbdc3062859975ede39f7c316f6f8a540f48d2f78b4c54d698fad
+SHA256 (chromium.sh) = ea796f8d35155e4c9716eaa2c6ea9470c2faa69ac0c1fd226208bdcd20ad2771

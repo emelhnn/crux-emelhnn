@@ -1,0 +1,24 @@
+# Description: Google Chromium, sans integration with Google.
+# URL: https://ungoogled-software.github.io/
+# Maintainer: Shinathip Duanghoy, shinathip.x2004 at gmail dot com
+# Depends on: nss cups xorg-libxcomposite
+
+name=ungoogled-chromium-bin
+version=106.0.5249.119
+release=1
+source=(https://github.com/clickot/ungoogled-chromium-binaries/releases/download/$version-1/ungoogled-chromium_$version-1.1_linux.tar.xz
+        chromium.sh)
+
+build() {
+    cd ungoogled-chromium_"$version"-1.1_linux
+
+    install -d $PKG/usr/bin
+    install -d $PKG/usr/lib/chromium
+    cp -a . $PKG/usr/lib/chromium/
+
+    # Fix sandbox.
+    mv $PKG/usr/lib/chromium/chrome_sandbox $PKG/usr/lib/chromium/chrome-sandbox
+    chmod 4755 $PKG/usr/lib/chromium/chrome-sandbox
+    
+    install -m 755 $SRC/chromium.sh $PKG/usr/bin/chromium
+}
