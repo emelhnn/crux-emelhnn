@@ -1,0 +1,21 @@
+# Description: Android command line utilities.
+# URL: https://github.com/nmeum/android-tools
+# Maintainer: Shinathip Duanghoy, shinathip.x2004 at gmail dot com
+# Depends on: libunwind libpcre libusb python3 go cmake perl zstd lz4 protobuf brotli gtest
+
+name=android-tools
+version=31.0.3p2
+release=1
+source=(https://github.com/nmeum/android-tools/releases/download/$version/android-tools-$version.tar.xz
+        51-android.rules)
+
+build() {
+    cd $name-$version
+    mkdir build && cd build
+    cmake .. -DCMAKE_INSTALL_PREFIX:PATH=/usr
+    make
+    make DESTDIR="$PKG" install
+
+    install -d $PKG/etc/udev/rules.d
+    install -m 644 $SRC/51-android.rules $PKG/etc/udev/rules.d
+}
