@@ -1,0 +1,18 @@
+# Description: Google’s C++ testing framework library.
+# URL: https://github.com/google/googletest
+# Maintainer: Shinathip Duanghoy, shinathip.x2004 at gmail dot com
+# Depends on: cmake
+
+name=gtest
+version=1.12.1
+release=1
+source=(https://github.com/google/googletest/archive/release-$version/$name-$version.tar.gz)
+
+build() {
+    cd googletest-release-$version
+    mkdir build && cd build
+
+    cmake .. -DCMAKE_INSTALL_PREFIX:PATH=/usr -DBUILD_GMOCK=OFF
+    make
+    make DESTDIR="$PKG" install
+}

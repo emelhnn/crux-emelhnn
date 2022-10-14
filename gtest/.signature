@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/emelhnn.pub
+RWSWuQECNS3U58MU39j1QePzcOqZEVHOfaC69XlxXdz4MZJSl7txlP4dnX74uasctAAqEWzyKpsZj54PBybs5M3y1RRXaCgNKwg=
+SHA256 (Pkgfile) = a19742c29d0bbe5e61f3d91f1bbdc3401968fd716f357f03326dec843d37dae9
+SHA256 (.footprint) = 8fff0a5b06f29b824df0aae2d3b14268e660447e54606f20ba531bfc672a00b0
+SHA256 (gtest-1.12.1.tar.gz) = 81964fe578e9bd7c94dfdb09c8e4d6e6759e19967e397dbea48d1c10e45d0df2

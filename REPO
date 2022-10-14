@@ -3,6 +3,7 @@ d:obconf
 d:xorriso
 d:thorium-sse3-bin
 d:ungoogled-chromium-bin
+d:gtest
 d:gh
 d:cmus
 f:326de8b8dc4d74570984f7c3d385993c:micro/.signature
@@ -22,6 +23,9 @@ f:029554447fcd800ad756deaf57a950ce:ungoogled-chromium-bin/chromium.sh
 f:cc3b710be2fddc7fe8a5b88125df1d5e:ungoogled-chromium-bin/.signature
 f:42bffb78356995864ed65fb984723adc:ungoogled-chromium-bin/.footprint
 f:acca3b21cbcf1bc0e7f51927a1447242:ungoogled-chromium-bin/Pkgfile
+f:22521b8a663a5559385a530be5d37398:gtest/.signature
+f:c30801ce383da2f820f366f50a2105ae:gtest/.footprint
+f:101f11f87d79087474441abf9ea4da88:gtest/Pkgfile
 f:372e42feb014ce6503886f45abff4dec:gh/.signature
 f:a4627b8ca27eb87fa7311504fa41653d:gh/.footprint
 f:7753f0cd17fefcde5cb308058aa6056a:gh/Pkgfile
