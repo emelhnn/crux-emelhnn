@@ -1,0 +1,20 @@
+# Description: Chromium fork with various patches (SSE3 Special release)
+# URL: https://cli.github.com
+# Maintainer: Shinathip Duanghoy, shinathip.x2004 at gmail dot com
+# Depends on: nss cups xorg-libxcomposite
+
+name=thorium-sse3-bin
+version=108.0.5312.0
+release=1
+ARCH="$version"_amd64
+source=(https://github.com/Alex313031/Thorium-Special/releases/download/M$version/thorium-browser_$ARCH.zip
+        thorium.sh)
+
+build() {
+    install -d $PKG/usr/bin
+    install -d $PKG/usr/lib/thorium
+    cp -a . $PKG/usr/lib/thorium/
+
+    chmod 4755 $PKG/usr/lib/thorium/chrome-sandbox
+    install -m 755 thorium.sh $PKG/usr/bin/thorium
+}

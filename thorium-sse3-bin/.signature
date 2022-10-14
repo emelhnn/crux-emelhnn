@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/emelhnn.pub
+RWSWuQECNS3U50+HdcktC7sjMEdhKw0SRlisknTZeYhFD47iC2Ef/PZEQ7wqicWoxU121+/HKnYBLlX8iqdCSVx/AYgaPNMjSQA=
+SHA256 (Pkgfile) = d9fff305d80b2b412080deab9149e6de008130cd431c0b450e54bbe5af7ecfa7
+SHA256 (.footprint) = 985986f5920eb967057db4fe1202638237e2eeb94681c37ee21d0de889717ca5
+SHA256 (thorium-browser_108.0.5312.0_amd64.zip) = 63d23d8204842a34e23b9f5468abb760aa867405cc6e7fbd4fe8dc57282ab13e
+SHA256 (thorium.sh) = ec456860868a9386bbaae4c2c980dd1ff8f1cc4f48f1b1d0a4f77816d62f906a
