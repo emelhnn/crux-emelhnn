@@ -1,5 +1,6 @@
 d:micro
 d:obconf
+d:xorriso
 d:gh
 d:cmus
 f:326de8b8dc4d74570984f7c3d385993c:micro/.signature
@@ -8,6 +9,9 @@ f:ba84ced1a969cf02b386d82bdb29133a:micro/Pkgfile
 f:eb8276ee73fb0ad23fe5c78498de553d:obconf/.signature
 f:7fd9158a36d838bf62aea841a1016aff:obconf/.footprint
 f:a3c5bb8e23f17349d3a2e9745ab158fe:obconf/Pkgfile
+f:412fea52300ea51ee9aff060e22bd3e4:xorriso/.signature
+f:765d7c7b6f45ab43fef32cccdb4b1966:xorriso/.footprint
+f:6a00f4b68795ea0549ccfb1625e86efa:xorriso/Pkgfile
 f:372e42feb014ce6503886f45abff4dec:gh/.signature
 f:a4627b8ca27eb87fa7311504fa41653d:gh/.footprint
 f:7753f0cd17fefcde5cb308058aa6056a:gh/Pkgfile
