@@ -2,6 +2,7 @@ d:micro
 d:obconf
 d:xorriso
 d:thorium-sse3-bin
+d:gtkdialog
 d:ungoogled-chromium-bin
 d:gtest
 d:android-tools
@@ -20,6 +21,9 @@ f:51fa42f7c2a20df55951e927ad6dcf46:thorium-sse3-bin/.signature
 f:f9a12475937a0c653e6c7dacca350659:thorium-sse3-bin/.footprint
 f:8aa4c9c84e0634eb3cad62dacd5e084a:thorium-sse3-bin/thorium.sh
 f:758fa84557d33a16706f67763656010f:thorium-sse3-bin/Pkgfile
+f:d0fcc957613554b013ce262844d38dc3:gtkdialog/.signature
+f:2965dd44dc6b3eaf48ec26c4eddcc7ef:gtkdialog/.footprint
+f:d7b1baf0cf3402c6bc1b8aa08e2a8bf6:gtkdialog/Pkgfile
 f:029554447fcd800ad756deaf57a950ce:ungoogled-chromium-bin/chromium.sh
 f:cc3b710be2fddc7fe8a5b88125df1d5e:ungoogled-chromium-bin/.signature
 f:42bffb78356995864ed65fb984723adc:ungoogled-chromium-bin/.footprint
@@ -27,13 +31,12 @@ f:acca3b21cbcf1bc0e7f51927a1447242:ungoogled-chromium-bin/Pkgfile
 f:22521b8a663a5559385a530be5d37398:gtest/.signature
 f:c30801ce383da2f820f366f50a2105ae:gtest/.footprint
 f:101f11f87d79087474441abf9ea4da88:gtest/Pkgfile
-f:ef9c9befb34aac587365b6c241cad1b5:android-tools/.signature
-f:3c367846506515a967f69148b6a4f384:android-tools/.footprint
+f:247d406c579449e536195370a292676b:android-tools/.signature
 f:f7701a8bef35225baa3c4489e8e8a074:android-tools/51-android.rules
 f:1d461d682f5d836045bb66e64690ce9e:android-tools/Pkgfile
 f:372e42feb014ce6503886f45abff4dec:gh/.signature
 f:a4627b8ca27eb87fa7311504fa41653d:gh/.footprint
 f:7753f0cd17fefcde5cb308058aa6056a:gh/Pkgfile
-f:39b665f534bb1a9af321eaa6434703e4:cmus/.signature
-f:706ecaf2637d9f6779832102697d59d4:cmus/.footprint
+f:79b958864edee078c4c059964021ad78:cmus/.signature
+f:f7041c7636a9002d7fc9e7c328b14024:cmus/.footprint
 f:e2a003cfb6d4ee287daa66dc3cd882d2:cmus/Pkgfile

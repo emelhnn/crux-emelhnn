@@ -1,0 +1,17 @@
+# Description: Script friendly GTK GUI builder.
+# URL: https://github.com/puppylinux-woof-CE/gtkdialog
+# Maintainer: Shinathip Duanghoy, shinathip.x2004 at gmail dot com
+# Depends on: autoconf texinfo gtk
+
+name=gtkdialog
+version=0.8.5
+release=1
+source=(https://github.com/puppylinux-woof-CE/gtkdialog/archive/$version/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+    ./autogen.sh prefix=/usr
+    make
+
+    make DESTDIR="$PKG" install
+}
